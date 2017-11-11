@@ -1,9 +1,28 @@
 Package: iDA
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.2)
-License: What license is it under?
+Version: 0.1.0
+Date: 2017-11-11
+Title: Interactive Data Analysis for scRNA-Seq using tag-based UMI data
+Description: Interactive Data Analysis for scRNA-Seq using tag-based UMI data. It was Mostly implemented under shiny and Seurat package.
+Authors@R: person('Zongcheng', 'Li', email = 'lizc07@vip.qq.com', role = c('aut', 'cre'))
+Depends: 
+    R (>= 3.3.2),
+    Seurat,
+    shiny,
+    shinydashboard,
+    DT,
+    igraph,
+    Rtsne,
+    dplyr,
+    ggplot2,
+    gplots,
+    gridExtra,
+    pheatmap
+License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
+Collate: 
+    'global.R'
+    'ui.R'
+    'server.R'
+    'app.R'
+RoxygenNote: 6.0.1
