@@ -9,7 +9,8 @@ devtools::install_github('lizc07/iDA')
 ```R
 source('http://bioconductor.org/biocLite.R')
 biocLite(c('Seurat', 'shiny', 'shinydashboard', 'DT', 'igraph', 
-'Rtsne', 'dplyr', 'ggplot2', 'gplots', 'gridExtra', 'pheatmap'))
+           'Rtsne', 'dplyr', 'ggplot2', 'gplots', 'gridExtra', 
+           'pheatmap'))
 # if necessary
 # chooseCRANmirror()
 # chooseBioCmirror()
