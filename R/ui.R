@@ -7,11 +7,7 @@
 # header ---------------------------------------------------------------------------------------------------------------------
 header  <- dashboardHeader(title = "iDA", disable = F)
 # sidebar ---------------------------------------------------------------------------------------------------------------------
-sidebar <- dashboardSidebar(sidebarUserPanel("User Name",
-                                                 subtitle = a(href = "#", icon("circle", class = "text-success"), "Online"),
-                                                 # Image file should be in www/ subdir
-                                                 image = "userimage.jpg"
-            ),
+sidebar <- dashboardSidebar(
             #sidebarSearchForm(label = "Enter a number", "searchText", "searchButton"),
             sidebarMenu(
               # Setting id makes input$tabs give the tabName of currently-selected tab

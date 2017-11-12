@@ -5,7 +5,7 @@ Title: Interactive Data Analysis for scRNA-Seq using tag-based UMI data
 Description: Interactive Data Analysis for scRNA-Seq using tag-based UMI data. It was Mostly implemented under shiny and Seurat package.
 Authors@R: person('Zongcheng', 'Li', email = 'lizc07@vip.qq.com', role = c('aut', 'cre'))
 Depends: 
-    R (>= 3.3.2),
+    R (>= 3.3.0),
     Seurat,
     shiny,
     shinydashboard,
